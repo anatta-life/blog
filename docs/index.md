@@ -24,3 +24,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     - 我的主要需求点是(1)能用 $\LaTeX$ 写公式,和(2)能嵌入代码, 我发现oi-wiki用的就是`mkdocs`框架且看起来颜值还能接受.
 * Q: 这个`blog`记录什么?
     - 个人知识和想法的积累, 所以可能一篇文章会随着个人的想法的变化而不断优化. 而不是日记那种杂乱信息的碎碎念.
+
+```python
+def fn():
+    pass
+```
