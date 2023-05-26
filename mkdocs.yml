@@ -1,16 +1,28 @@
 site_name: Anatta
+site_url: http://anatta.life/
 nav:
-    - Home: index.md
-    - About: about.md
+    - 主页: index.md
+    - 数学: math.md
+    - 机器学习: ml.md
+    - FAQ: faq.md
 theme:
-    name: mkdocs
+    # name: mkdocs
+    name: null
+    custom_dir: 'cinder'
+    colorscheme: github
     highlightjs: true
+    # shortcuts:
+    #     help: 191    # ?
+    #     next: 78     # n
+    #     previous: 80 # p
+    #     search: 83   # s
     shortcuts:
         help: 191    # ?
-        next: 78     # n
-        previous: 80 # p
+        next: 39     # right arrow
+        previous: 37 # left arrow
         search: 83   # s
-    locale: zh_CN
+    # locale: zh_CN
+    disable_footer: true
 
 markdown_extensions:
   - pymdownx.arithmatex:
