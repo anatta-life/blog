@@ -2,26 +2,27 @@ site_name: Anatta
 site_url: http://anatta.life/
 nav:
     - 主页: index.md
-    - 数学: math.md
-    - 机器学习: ml.md
+    - 想法: thoughts.md
+    - 阅读: reading.md
+    - 语言: lang.md
+    - 数学: #:
+        - 数学: math.md
+        - 数论:
+            - 整除: math/divide_exactly.md
+    - 算法: algo.md
+    - 工程: eng.md
+    - 游戏: game.md
     - FAQ: faq.md
 theme:
-    # name: mkdocs
     name: null
     custom_dir: 'cinder'
     colorscheme: github
     highlightjs: true
-    # shortcuts:
-    #     help: 191    # ?
-    #     next: 78     # n
-    #     previous: 80 # p
-    #     search: 83   # s
     shortcuts:
         help: 191    # ?
         next: 39     # right arrow
         previous: 37 # left arrow
         search: 83   # s
-    # locale: zh_CN
     disable_footer: true
 
 markdown_extensions:
