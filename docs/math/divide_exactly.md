@@ -37,3 +37,12 @@ $b = a q + r$ 且 $0 \le r < a$.
     - 难点在哪?: $0 \le r < a$
     - $r = ?$: $r = b - aq \Rightarrow 0 \le b - aq < a \Rightarrow \frac{b}{a}-1 < q \le\frac{b}{a} \Rightarrow \lfloor \frac{b}{a} \rfloor$
 - 唯一性
+  - 假设存在$q', r' \in \mathbb{Z}$, 且$b = aq' + r', 0 \le r' < a$
+    - 已知: $a, b \in \mathbb{Z}, q, r, q', r' \in \mathbb{Z}$, $b = aq' + r', 0 \le r' < a, b = aq + r, 0 \le r < a$
+    - 未知: $q = q', r = r'$
+    - 联系:
+      - $b = aq' + r' = aq + r \Rightarrow a(q' - q) = r - r' \Rightarrow a \mid r - r'$
+      - 又因为 $-a < r - r' < a$, 所以$r = r'$
+
+## 应用
+

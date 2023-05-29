@@ -6,30 +6,50 @@ nav:
     - 阅读: reading.md
     - 语言: lang.md
     - 数学: #:
-        - 数学: math.md
-        - 数论:
-            - 整除: math/divide_exactly.md
+          - math.md
+          - 数论:
+                - 整除: math/divide_exactly.md
     - 算法: algo.md
     - 工程: eng.md
     - 游戏: game.md
+    - 关于: about.md
     - FAQ: faq.md
 theme:
-    name: null
-    custom_dir: 'cinder'
+    name: material
+    palette:
+        primary: indigo
+    # custom_dir: 'cinder'
     colorscheme: github
     highlightjs: true
     shortcuts:
-        help: 191    # ?
-        next: 39     # right arrow
+        help: 191 # ?
+        next: 39 # right arrow
         previous: 37 # left arrow
-        search: 83   # s
+        search: 83 # s
     disable_footer: true
-
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        # - navigation.sections
+        - navigation.expand
+        - navigation.indexes
+    font:
+        text: Roboto
+        code: Roboto Mono
+    language: zh
 markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
+    - pymdownx.arithmatex:
+          generic: true
+plugins:
+    - search
 
+extra:
+    analytics:
+        provider: google
+        property: G-Q54SVB4F2B
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
