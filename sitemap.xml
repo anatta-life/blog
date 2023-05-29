@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://anatta.life/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://anatta.life/about/</loc>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/algo/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/eng/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/faq/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/game/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/lang/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/math/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/reading/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/thoughts/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://anatta.life/math/divide_exactly/</loc>
-         <lastmod>2023-05-28</lastmod>
+         <lastmod>2023-05-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
